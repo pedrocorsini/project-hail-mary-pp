@@ -1,0 +1,16 @@
+ARQUIVO DE RECONHECIMENTO DE TOKENS
+========================================
+warp -> diretiva de inclusao
+universo -> identificador
+; -> finalizador de comando
+electron -> tipo inteiro
+a -> identificador
+; -> finalizador de comando
+signal -> comando de entrada
+>> -> operador de entrada
+a -> identificador
+; -> finalizador de comando
+broadcast -> comando de saida
+<< -> operador de saida
+a -> identificador
+; -> finalizador de comando

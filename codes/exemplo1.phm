@@ -1,0 +1,4 @@
+warp universo;
+electron a;
+signal >> a;
+broadcast << a;

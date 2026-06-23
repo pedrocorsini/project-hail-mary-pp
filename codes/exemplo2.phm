@@ -1,0 +1,9 @@
+electron a;
+electron b;
+a = 10;
+b = 20;
+sun ( a > b ) {
+    broadcast << a;
+} moon {
+    broadcast << b;
+}

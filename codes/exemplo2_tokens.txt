@@ -1,0 +1,35 @@
+ARQUIVO DE RECONHECIMENTO DE TOKENS
+========================================
+electron -> tipo inteiro
+a -> identificador
+; -> finalizador de comando
+electron -> tipo inteiro
+b -> identificador
+; -> finalizador de comando
+a -> identificador
+= -> atribuicao
+10 -> numero
+; -> finalizador de comando
+b -> identificador
+= -> atribuicao
+20 -> numero
+; -> finalizador de comando
+sun -> comando condicional (if)
+( -> abre parenteses
+a -> identificador
+> -> operador relacional
+b -> identificador
+) -> fecha parenteses
+{ -> abre chaves
+broadcast -> comando de saida
+<< -> operador de saida
+a -> identificador
+; -> finalizador de comando
+} -> fecha chaves
+moon -> comando condicional (else)
+{ -> abre chaves
+broadcast -> comando de saida
+<< -> operador de saida
+b -> identificador
+; -> finalizador de comando
+} -> fecha chaves
