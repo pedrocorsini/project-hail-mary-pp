@@ -165,22 +165,21 @@ orbit ( total > 0 ) {
 
 ## Gramática implementada
 
-A análise sintática em `src/sintatico.py` implementa atualmente:
+A análise sintática em `src/sintatico.py` implementa as seguintes regras e estruturas:
 
-- Declaração de variável
-- Atribuição
-- Condicional (`sun` / `moon`)
-- Laço `orbit` (while)
-- Laço `rocket` (for)
-- Entrada (`signal >>`)
-- Saída (`broadcast <<`)
-- Include (`warp ...;`)
-
-**Itens tokenizados mas ainda sem regras sintáticas completas:**
-- `switch/case` (`star` / `planet`)
-- `return` (`launch`)
-- Funções (declaração e chamada)
-- `define` (`gravity`)
+- Declaração de variáveis
+- Atribuição de valores
+- Expressões matemáticas e lógicas
+- Condicional if/else (`sun` / `moon`)
+- Laço de repetição while (`orbit`)
+- Laço de repetição for (`rocket`)
+- Estrutura de seleção switch/case (`star` / `planet`)
+- Declaração e chamada de funções com passagem de parâmetros
+- Retorno de funções (`launch`)
+- Entrada de dados (`signal >>`)
+- Saída de dados (`broadcast <<`)
+- Diretiva de inclusão (`warp ...;`)
+- Definição de constantes (`gravity`)
 
 ## Autores
 
