@@ -18,23 +18,13 @@ Características principais:
 ## Estrutura do projeto
 
 ```text
-.
-├── .gitignore
-├── README.md
-├── main.py
-├── codes/
-│   ├── exemplo1.phm
-│   ├── exemplo2.phm
-│   ├── exemplo3.phm
-│   ├── exemplo1_tokens.txt
-│   └── exemplo2_tokens.txt
-├── resources/
-│   └── Trabalho_Compiladores.pdf
-└── src/
-    ├── lexico.py
-    ├── sintatico.py
-    ├── parser.out
-    └── parsetab.py
+project-hail-mary-pp
+├── codes/          # Códigos de Exemplo
+├── src/            # Analisadores Léxicos e Sintáticos
+├── resources/      # PDF da Linguagem PMH++
+├── main.py         # Programa principal
+├── README.md       # Informações do projeto
+└── .gitignore          
 ```
 ## Requisitos
 
