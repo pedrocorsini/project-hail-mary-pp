@@ -20,11 +20,12 @@ Características principais:
 ```text
 project-hail-mary-pp
 ├── codes/          # Códigos de Exemplo
-├── src/            # Analisadores Léxicos e Sintáticos
 ├── resources/      # PDF da Linguagem PMH++
-├── main.py         # Programa principal
+├── src/            # Analisadores Léxicos e Sintáticos
+├── .gitignore      # Git Ignore   
+├── LICENSE         # MIT License
 ├── README.md       # Informações do projeto
-└── .gitignore          
+└── main.py         # Programa principal
 ```
 ## Requisitos
 
