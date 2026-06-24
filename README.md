@@ -36,9 +36,6 @@ Características principais:
     ├── parser.out
     └── parsetab.py
 ```
-
-> Pastas como `.venv/` e `__pycache__/` são de ambiente/cache e não fazem parte da lógica do compilador.
-
 ## Requisitos
 
 - Python 3.8+
