@@ -1,0 +1,50 @@
+ARQUIVO DE RECONHECIMENTO DE TOKENS
+========================================
+electron -> tipo inteiro
+i -> identificador
+; -> finalizador de comando
+electron -> tipo inteiro
+total -> identificador
+; -> finalizador de comando
+total -> identificador
+= -> atribuicao
+0 -> numero
+; -> finalizador de comando
+rocket -> comando de repeticao (for
+( -> abre parenteses
+i -> identificador
+= -> atribuicao
+0 -> numero
+; -> finalizador de comando
+i -> identificador
+< -> operador relacional
+10 -> numero
+; -> finalizador de comando
+i -> identificador
+= -> atribuicao
+i -> identificador
++ -> operador aritmetico soma
+1 -> numero
+) -> fecha parenteses
+{ -> abre chaves
+total -> identificador
+= -> atribuicao
+total -> identificador
++ -> operador aritmetico soma
+i -> identificador
+; -> finalizador de comando
+} -> fecha chaves
+orbit -> comando de repeticao (while)
+( -> abre parenteses
+total -> identificador
+> -> operador relacional
+0 -> numero
+) -> fecha parenteses
+{ -> abre chaves
+total -> identificador
+= -> atribuicao
+total -> identificador
+- -> operador aritmetico subtracao
+1 -> numero
+; -> finalizador de comando
+} -> fecha chaves
